@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Template 02</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      * {
+        font-family: "Garamond", "Times New Roman", serif;
+        font-size: 13px;
+      }
+      .title {
+        font-size: 14px;
+      }
+      .font-garamont {
+        font-family: "Garamond", "Times New Roman", serif;
+      }
+      #main-content {
+        margin-top: -3rem;
+        width: 70%;
+      }
+      #contact-details i {
+        height: 2.6rem;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .a4-template {
+        width: 210mm;
+        height: 297mm;
+        max-width: 210mm;
+        min-height: 297mm;
+        background-color: #e4e5df;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a4-template position-relative mx-auto my-2 p-5">
+      <header class="position-relative d-inline-flex flex-column ps-4 py-4">
+        <h1 class="fw-bold m-0 ps-2 pt-3 z-2">Alexandria Doe</h1>
+        <h3 class="font-garamont fw-medium ps-2 z-2">Graphic Designer</h3>
+        <div
+          class="rounded-circle bg-warning position-absolute top-0 start-0 z-1"
+          style="height: 130px; width: 130px"
+        ></div>
+      </header>
+      <main
+        id="main-content"
+        class="d-flex flex-column justify-content-between ms-auto mb-3 py-4 border-1 border-top border-bottom border-black"
+      >
+        <section id="contact-details" class="row row-cols-3 g-2">
+          <div id="phone" class="col d-flex">
+            <i class="bi bi-telephone fs-3 border-bottom border-black"></i>
+            <div class="d-flex flex-column ms-3">
+              <span class="title fw-bold">Phone</span>
+              <span class="content text-secondary">+91 9876543210</span>
+            </div>
+          </div>
+          <div id="email" class="col d-flex">
+            <i class="bi bi-envelope fs-3 border-bottom border-black"></i>
+            <div class="d-flex flex-column ms-3">
+              <span class="title fw-bold">Email</span>
+              <span class="content text-secondary">email@email.com</span>
+            </div>
+          </div>
+          <div id="website" class="col d-flex d-none">
+            <i class="bi bi-window fs-3 border-bottom border-black"></i>
+            <div class="d-flex flex-column ms-3">
+              <span class="title fw-bold">Website</span>
+              <span class="content text-secondary">yourwebsite.com</span>
+            </div>
+          </div>
+          <div id="location" class="col d-flex">
+            <i class="bi bi-geo-alt fs-3 border-bottom border-black"></i>
+            <div class="d-flex flex-column ms-3">
+              <span class="title fw-bold">Location</span>
+              <span class="content text-secondary">City, Country</span>
+            </div>
+          </div>
+        </section>
+        <section id="profile" class="mt-4">
+          <h4 class="fw-bold ps-2">Profile</h4>
+          <div
+            class="border border-4 border-warning w-25"
+            style="margin-top: -1.7rem"
+          ></div>
+          <div class="d-flex mt-3 justify-content-between">
+            <img
+              src="profile-pic.jpg"
+              width="80px"
+              height="80px"
+              class="rounded-circle align-self-center me-5"
+              alt="Profile Picture"
+            />
+            <p class="m-0 text-secondary w-75 text-justify">
+              Creative and detail-oriented Graphic Designer with 4+ years of
+              experience translating client visions into compelling visual
+              content. Passionate about staying updated with design trends and
+              delivering visually impactful solutions that enhance brand
+              identity.
+            </p>
+          </div>
+        </section>
+        <div class="separator d-flex mt-4 mb-3">
+          <div class="border border-black w-25"></div>
+          <div class="border border-warning w-75"></div>
+        </div>
+        <section id="work-experience">
+          <h4
+            class="d-inline-block fw-bold position-absolute start-0 ps-5"
+            style="margin-left: 2rem; width: 10%"
+          >
+            Work Experience
+          </h4>
+          <div
+            class="section-header-underline border border-black position-absolute"
+            style="width: 7%; top: 35.4%; left: 8.2%"
+          ></div>
+          <div class="row">
+            <div class="col">
+              <p id="duration" class="m-0 fw-bold">2021 – Present</p>
+              <p id="company" class="m-0 text-secondary">ABC Creative Agency</p>
+              <p id="place" class="m-0 text-secondary">New York, NY</p>
+            </div>
+            <div class="col-9">
+              <p id="role" class="fw-bold">Graphic Designer</p>
+              <ul id="responsibilities" class="text-secondary text-justify">
+                <li>
+                  Designed and delivered creative assets for digital and print
+                  media, including logos, brochures, and social media campaigns,
+                  increasing client engagement by 25%.
+                </li>
+                <li>
+                  Collaborated with cross-functional teams to develop branding
+                  guidelines for 15+ clients, ensuring consistent visual
+                  identity.
+                </li>
+                <li>
+                  Created engaging UI/UX mockups and prototypes for websites and
+                  mobile apps, improving usability by 30%.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p id="duration" class="m-0 fw-bold">2018 – 2021</p>
+              <p id="company" class="m-0 text-secondary">XYZ Studio</p>
+              <p id="place" class="m-0 text-secondary">Boston, MA</p>
+            </div>
+            <div class="col-9">
+              <p id="role" class="fw-bold">Junior Graphic Designer</p>
+              <ul id="responsibilities" class="text-secondary text-justify">
+                <li>
+                  Assisted in producing marketing materials such as flyers,
+                  banners, and newsletters for various industries.
+                </li>
+                <li>
+                  Retouched and enhanced product images, contributing to a 20%
+                  increase in e-commerce sales.
+                </li>
+                <li>
+                  Participated in brainstorming sessions, providing innovative
+                  design solutions that led to winning two major client
+                  projects.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="separator d-flex mt-4 mb-3">
+          <div class="border border-black w-25"></div>
+          <div class="border border-warning w-75"></div>
+        </div>
+        <section id="education">
+          <h4
+            class="fw-bold position-absolute start-0 ps-5"
+            style="margin-left: 2rem"
+          >
+            Education
+          </h4>
+          <div
+            class="section-header-underline border border-black position-absolute"
+            style="width: 7%; top: 67%; left: 8.2%"
+          ></div>
+          <div class="row">
+            <div class="col">
+              <p id="graduated" class="m-0 fw-bold">2020</p>
+              <p id="university" class="m-0 text-secondary">
+                ABC School of Design
+              </p>
+              <p id="place" class="m-0 text-secondary">New York, NY</p>
+            </div>
+            <div class="col-9">
+              <p id="role" class="fw-bold">
+                Bachelor of Fine Arts in Graphic Design
+              </p>
+              <ul id="responsibilities" class="text-secondary text-justify">
+                <li>
+                  Achievements: Received the "Outstanding Design Portfolio"
+                  award at the senior exhibition.
+                </li>
+                <li>
+                  Relevant Coursework: Typography, Branding, Digital
+                  Illustration, User Interface Design.
+                </li>
+                <li>
+                  Key Project: Designed a complete brand identity for a mock
+                  company, including logos, packaging, and marketing materials,
+                  showcased at a university-wide competition.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="separator d-flex mt-4 mb-3">
+          <div class="border border-black w-25"></div>
+          <div class="border border-warning w-75"></div>
+        </div>
+        <section id="skills">
+          <h4
+            class="fw-bold position-absolute start-0 ps-5"
+            style="margin-left: 2rem"
+          >
+            Skills
+          </h4>
+          <div
+            class="section-header-underline border border-black position-absolute"
+            style="width: 7%; top: 86.23%; left: 8.2%"
+          ></div>
+          <div class="d-flex flex-wrap">
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              User Interface (UI) and User Experience (UX) Design
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Communication
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Collaboration
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Attention to Detail
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Creativity
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Innovation
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Problem-Solving
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Color Theory
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Visual Storytelling
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Branding and Identity Design
+            </div>
+            <div class="border border-warning rounded px-1 me-2 my-1">
+              Typography and Layout Design
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="d-flex ms-auto justify-content-between" style="width: 70%">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-twitter-x"></i>
+          <span class="ps-2">x.com/alexandria</span>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-pinterest"></i>
+          <span class="ps-2">pinterest.com/alexandria</span>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-dribbble"></i>
+          <span class="ps-2">dribbble.com/alexandria</span>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
